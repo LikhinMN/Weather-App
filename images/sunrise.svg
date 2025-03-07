@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <!-- Background -->
+  <rect width="500" height="300" fill="transparent " />
+  
+  <!-- Horizon Line -->
+  <line x1="0" y1="230" x2="500" y2="230" stroke="#ffffff" stroke-width="2" />
+  
+  <!-- Arc Path (dashed white line) -->
+  <path d="M 50 230 Q 250 30 450 230" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="10,10" />
+  
+  <!-- Sun with Rays Combined in a Group -->
+  <g>
+    <animateMotion
+      path="M 50 230 Q 250 30 450 230"
+      dur="8s"
+      repeatCount="indefinite"/>
+      
+    <!-- Sun Circle -->
+    <circle r="20" fill="#ffcc00" />
+    
+    <!-- Sun Rays -->
+    <!-- Top Ray -->
+    <line x1="0" y1="-20" x2="0" y2="-35" stroke="#ffcc00" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- Bottom Ray -->
+    <line x1="0" y1="20" x2="0" y2="35" stroke="#ffcc00" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- Left Ray -->
+    <line x1="-20" y1="0" x2="-35" y2="0" stroke="#ffcc00" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- Right Ray -->
+    <line x1="20" y1="0" x2="35" y2="0" stroke="#ffcc00" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- Top-Right Ray -->
+    <line x1="14" y1="-14" x2="25" y2="-25" stroke="#ffcc00" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- Top-Left Ray -->
+    <line x1="-14" y1="-14" x2="-25" y2="-25" stroke="#ffcc00" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- Bottom-Right Ray -->
+    <line x1="14" y1="14" x2="25" y2="25" stroke="#ffcc00" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- Bottom-Left Ray -->
+    <line x1="-14" y1="14" x2="-25" y2="25" stroke="#ffcc00" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>
