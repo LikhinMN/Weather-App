@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  padding: 20px;
   gap: 30px;
 }
 
@@ -37,6 +37,7 @@ body {
   padding: 5px;
   display: flex;
   align-items: center;
+  max-width: 300px;
 }
 
 .search-container::after,
@@ -147,7 +148,7 @@ img {
 
 .other-details {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 10px;
 }
 
@@ -210,6 +211,15 @@ margin: 0 5px;
   color: #7faad0;
   font-size: 1.2rem;
   text-transform: capitalize;
+  margin: 0 5px;
+}
+
+.error {
+  color: #fd0000;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: center;
+  width: 100%;
   margin: 0 5px;
 }
 
